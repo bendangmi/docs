@@ -2,51 +2,114 @@ import { navbar } from "vuepress-theme-hope";
 
 export const zhNavbar = navbar([
   "/",
-  { text: "演示", icon: "discover", link: "/zh/demo/" },
   {
-    text: "博文",
-    icon: "edit",
-    prefix: "/posts/",
+    text: "Java开发",
+    icon:"discover",
+    prefix: "/note/Java/",
     children: [
       {
-        text: "苹果",
+        text: "JavaSE初级",
         icon: "edit",
-        prefix: "apple/",
-        children: [
-          { text: "苹果1", icon: "edit", link: "1" },
-          { text: "苹果2", icon: "edit", link: "2" },
-          "3",
-          "4",
-        ],
+        link: "JavaSE0",
       },
       {
-        text: "香蕉",
+        text: "JavaSE高级",
         icon: "edit",
-        prefix: "banana/",
-        children: [
-          {
-            text: "香蕉 1",
-            icon: "edit",
-            link: "1",
-          },
-          {
-            text: "香蕉 2",
-            icon: "edit",
-            link: "2",
-          },
-          "3",
-          "4",
-        ],
+        link: "JavaSE1",
       },
-      { text: "樱桃", icon: "edit", link: "cherry" },
-      { text: "火龙果", icon: "edit", link: "dragonfruit" },
-      "tomato",
-      "strawberry",
-    ],
+    ]
+  }
+  ,
+  {
+    text: "前端开发",
+    icon:"discover",
+    prefix: "/note/Front/",
+    children: [
+      {
+        text: "HTML5",
+        icon: "edit",
+        link: "HTML5",
+      },
+      {
+        text: "CSS3",
+        icon: "edit",
+        link: "CSS3",
+      },
+      {
+        text: "JavaScript",
+        icon: "edit",
+        link: "JS",
+      },
+    ]
+  }
+  ,
+  {text: "中间件",
+    icon:"discover",
+    prefix:"/note/Middleware/",
+    children: [
+      {
+        text: "Nginx",
+        icon: "edit",
+        link: "Nginx",
+      },
+    ]
+  }
+  ,
+  {
+    text: "运维",
+    icon:"discover",
+    prefix:"/note/DevOps/",
+    children: [
+      {
+        text: "Linux",
+        icon: "edit",
+        link: "Linux",
+      },
+    ]
+  }
+  ,
+  {text: "面试",
+    icon:"discover",
+    prefix:"/note/Interview/",
+    children: [
+      {
+        text: "Java面经",
+        icon: "edit",
+        link: "JavaInterview",
+      },
+      {
+        text: "前端面经",
+        icon: "edit",
+        link: "FrontInterview",
+      },
+    ]
+  }
+  ,
+  {text: "个人简历",
+    icon:"discover",
+    prefix:"/note/Self/",
+    children: [
+      {
+        text: "简历制作",
+        icon: "edit",
+        link: "ProductionTutorial",
+      },
+    ]
+  }
+  ,{text: "项目",
+    icon:"discover",
+    prefix:"/note/Project/",
+    children: [
+      {
+        text: "博客项目",
+        icon: "edit",
+        link: "BlogProject",
+      },
+    ]
   },
   {
-    text: "V2 文档",
-    icon: "note",
-    link: "https://theme-hope.vuejs.press/zh/",
+    text: "演示功能",
+    icon: "discover",
+    link: "/demo/"
   },
 ]);

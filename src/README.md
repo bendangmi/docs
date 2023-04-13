@@ -4,11 +4,11 @@ layout: BlogHome
 icon: home
 title: 博客主页
 heroImage: /logo.svg
-heroText: 本当迷博客
+heroText: JAVA学习笔记
 heroFullScreen: true
-tagline: 坚持来源于热爱
+tagline: 坚持来源于Adoration
 projects:
-- icon: project
+- icon: Project
   name: 项目名称
   desc: 项目详细描述
   link: https://你的项目链接
