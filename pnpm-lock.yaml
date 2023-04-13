@@ -4,13 +4,17 @@ specifiers:
   '@vuepress/client': 2.0.0-beta.61
   vue: ^3.2.47
   vuepress: 2.0.0-beta.61
-  vuepress-theme-hope: 2.0.0-beta.203
+  vuepress-plugin-comment2: 2.0.0-beta.199
+  vuepress-plugin-search-pro: 2.0.0-beta.203
+  vuepress-theme-hope: 2.0.0-beta.199
 
 devDependencies:
   '@vuepress/client': registry.npmmirror.com/@vuepress/client/2.0.0-beta.61
   vue: registry.npmmirror.com/vue/3.2.47
   vuepress: registry.npmmirror.com/vuepress/2.0.0-beta.61_zcwlgd45apez724duilctoxt4u
-  vuepress-theme-hope: registry.npmmirror.com/vuepress-theme-hope/2.0.0-beta.203_vuepress@2.0.0-beta.61
+  vuepress-plugin-comment2: registry.npmmirror.com/vuepress-plugin-comment2/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe
+  vuepress-plugin-search-pro: registry.npmmirror.com/vuepress-plugin-search-pro/2.0.0-beta.203_vuepress@2.0.0-beta.61
+  vuepress-theme-hope: registry.npmmirror.com/vuepress-theme-hope/2.0.0-beta.199_vp7giep77rdltzfdyo4q5gatfa
 
 packages:
 
@@ -1763,17 +1767,6 @@ packages:
       '@jridgewell/sourcemap-codec': registry.npmmirror.com/@jridgewell/sourcemap-codec/1.4.14
     dev: true
 
-  registry.npmmirror.com/@khanacademy/simple-markdown/0.8.6:
-    resolution: {integrity: sha512-mAUlR9lchzfqunR89pFvNI51jQKsMpJeWYsYWw0DQcUXczn/T/V6510utgvm7X0N3zN87j1SvuKk8cMbl9IAFw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@khanacademy/simple-markdown/-/simple-markdown-0.8.6.tgz}
-    name: '@khanacademy/simple-markdown'
-    version: 0.8.6
-    peerDependencies:
-      react: 16.14.0
-      react-dom: 16.14.0
-    dependencies:
-      '@types/react': registry.npmmirror.com/@types/react/18.0.35
-    dev: true
-
   registry.npmmirror.com/@kurkle/color/0.3.2:
     resolution: {integrity: sha512-fuscdXJ9G1qb7W8VdHi+IwRqij3lBkosAm4ydQtEmbY58OzHXqQhvlxqEkoz0yssNVn38bcpRWgA9PP+OGoisw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@kurkle/color/-/color-0.3.2.tgz}
     name: '@kurkle/color'
@@ -1873,196 +1866,196 @@ packages:
     version: 0.12.0
     dev: true
 
-  registry.npmmirror.com/@mdit/plugin-align/0.4.3:
-    resolution: {integrity: sha512-ZfIOxu/liqqu2L7uf4Rs8GAltqrg54wCQTHWPjc5D6p87/WDT562aBU+DuekBIgS+iKQJ/54BYwoRUc4DpOsEw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mdit/plugin-align/-/plugin-align-0.4.3.tgz}
+  registry.npmmirror.com/@mdit/plugin-align/0.3.0:
+    resolution: {integrity: sha512-t5SY5n93Et8MJRbEmlcREpPNLy/A7j0U13mXiuADtgvkMIWGXiO3PLyPPLfov9vWhh1tcDcNQ1+XY3hw71LwzQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mdit/plugin-align/-/plugin-align-0.3.0.tgz}
     name: '@mdit/plugin-align'
-    version: 0.4.3
+    version: 0.3.0
     engines: {node: '>= 14'}
     dependencies:
-      '@mdit/plugin-container': registry.npmmirror.com/@mdit/plugin-container/0.4.3
+      '@mdit/plugin-container': registry.npmmirror.com/@mdit/plugin-container/0.3.0
       '@types/markdown-it': registry.npmmirror.com/@types/markdown-it/12.2.3
       markdown-it: registry.npmmirror.com/markdown-it/13.0.1
     dev: true
 
-  registry.npmmirror.com/@mdit/plugin-attrs/0.4.3:
-    resolution: {integrity: sha512-HBygSzDhR5n+dIX0lafObWbnOkc0dxMqcAXEKepnntnBvkNwGDgbXTGWthmcypeF7G3iYFgU2zUKz+ArHQ/ezw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mdit/plugin-attrs/-/plugin-attrs-0.4.3.tgz}
+  registry.npmmirror.com/@mdit/plugin-attrs/0.3.0:
+    resolution: {integrity: sha512-u8TrEmoZsCmtPA8Q94CXEBAU8VO8xEaX7JJ20SXcv5C8u4h5S/LwnqBXckBH9B8Qz0j8JS7XeKxfm6X+lmwMxg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mdit/plugin-attrs/-/plugin-attrs-0.3.0.tgz}
     name: '@mdit/plugin-attrs'
-    version: 0.4.3
+    version: 0.3.0
     engines: {node: '>= 14'}
     dependencies:
       '@types/markdown-it': registry.npmmirror.com/@types/markdown-it/12.2.3
       markdown-it: registry.npmmirror.com/markdown-it/13.0.1
     dev: true
 
-  registry.npmmirror.com/@mdit/plugin-container/0.4.3:
-    resolution: {integrity: sha512-WI3N7srZqN19A0CDhgJmfhZ9c+wDSncYlCrK0jlTo3tsp5o/7pYi2awaplvr8kt1jd83ULVuPkoXIMaJ9g9sEg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mdit/plugin-container/-/plugin-container-0.4.3.tgz}
+  registry.npmmirror.com/@mdit/plugin-container/0.3.0:
+    resolution: {integrity: sha512-mNdw5H8VsifwtRCEvuyIa6kTDP1a3CHe7PhICzmK51/6yObN6PRWWwEDuG3vJOu1pIRltcsgMKMwEC8BWT2S0A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mdit/plugin-container/-/plugin-container-0.3.0.tgz}
     name: '@mdit/plugin-container'
-    version: 0.4.3
+    version: 0.3.0
     engines: {node: '>= 14'}
     dependencies:
       '@types/markdown-it': registry.npmmirror.com/@types/markdown-it/12.2.3
       markdown-it: registry.npmmirror.com/markdown-it/13.0.1
     dev: true
 
-  registry.npmmirror.com/@mdit/plugin-figure/0.4.3:
-    resolution: {integrity: sha512-KFGhI4b5CBuvUvrb3p+B1N8rayUIJysFocBjMG/x6UlK0esSTlKWLVKoWRjev7FBAtRi1ytF/7zsD7vMuN/lkw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mdit/plugin-figure/-/plugin-figure-0.4.3.tgz}
+  registry.npmmirror.com/@mdit/plugin-figure/0.3.0:
+    resolution: {integrity: sha512-657sxb+qjZ5ff5YXEOuPqobSFcXuLNS7pWFA9oZxK8Fbo8FqS/sAKuUV2axo2SBR9pydLNP/bPvu2YbvYdQkNA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mdit/plugin-figure/-/plugin-figure-0.3.0.tgz}
     name: '@mdit/plugin-figure'
-    version: 0.4.3
+    version: 0.3.0
     engines: {node: '>= 14'}
     dependencies:
       '@types/markdown-it': registry.npmmirror.com/@types/markdown-it/12.2.3
       markdown-it: registry.npmmirror.com/markdown-it/13.0.1
     dev: true
 
-  registry.npmmirror.com/@mdit/plugin-footnote/0.4.3:
-    resolution: {integrity: sha512-zbqOJg9ne6RsjpQO6YYqwm1DzoVqWXWk9oioptF8nI7u53MLysMzHY2HjQ9wg81Qxltmdcps4+gL05KtFaJY0Q==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mdit/plugin-footnote/-/plugin-footnote-0.4.3.tgz}
+  registry.npmmirror.com/@mdit/plugin-footnote/0.3.0:
+    resolution: {integrity: sha512-2qfSklSJplsP4sct02cdMcBSVyLAHIhR1OMxhEnS0WsUMtX68r2G7buBtfVbYRT68lCygkZFAD4nymdslEdDRA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mdit/plugin-footnote/-/plugin-footnote-0.3.0.tgz}
     name: '@mdit/plugin-footnote'
-    version: 0.4.3
+    version: 0.3.0
     engines: {node: '>= 14'}
     dependencies:
       '@types/markdown-it': registry.npmmirror.com/@types/markdown-it/12.2.3
       markdown-it: registry.npmmirror.com/markdown-it/13.0.1
     dev: true
 
-  registry.npmmirror.com/@mdit/plugin-img-lazyload/0.4.3:
-    resolution: {integrity: sha512-JrN64FIjIuEPX7S8Ti2makrG5nDc8h5Iyc2PXEuAIz5DURmTVgzKOcHGidrfwq/MYt6ZLoVRqCgkyKKGm3OT8A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mdit/plugin-img-lazyload/-/plugin-img-lazyload-0.4.3.tgz}
+  registry.npmmirror.com/@mdit/plugin-img-lazyload/0.3.0:
+    resolution: {integrity: sha512-KytI59hWWfiynlt8meFBEGcJO0LrdUbj2Uicq7E1NycTIipgxAKIPU0pxc/eY+gdJhp+W0lpl+orRG0eoVLX+A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mdit/plugin-img-lazyload/-/plugin-img-lazyload-0.3.0.tgz}
     name: '@mdit/plugin-img-lazyload'
-    version: 0.4.3
+    version: 0.3.0
     engines: {node: '>= 14'}
     dependencies:
       '@types/markdown-it': registry.npmmirror.com/@types/markdown-it/12.2.3
       markdown-it: registry.npmmirror.com/markdown-it/13.0.1
     dev: true
 
-  registry.npmmirror.com/@mdit/plugin-img-mark/0.4.3:
-    resolution: {integrity: sha512-xKcDKXJ9p7NM+geL77mr415JEASC+xMbDwSI8sFJfr/ZzZt/bV7as2XJOgxjPANMj+eJCELZO+Z5+4Js7FRfGg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mdit/plugin-img-mark/-/plugin-img-mark-0.4.3.tgz}
+  registry.npmmirror.com/@mdit/plugin-img-mark/0.3.0:
+    resolution: {integrity: sha512-dto+KOvhai6piINS3052+GUk6AKvxe3bSU6I1dFbYKRswIDZcf8XIMQZVYiBN+2tLKMQzzwcu+irVuWHkS6LYQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mdit/plugin-img-mark/-/plugin-img-mark-0.3.0.tgz}
     name: '@mdit/plugin-img-mark'
-    version: 0.4.3
+    version: 0.3.0
     engines: {node: '>= 14'}
     dependencies:
       '@types/markdown-it': registry.npmmirror.com/@types/markdown-it/12.2.3
       markdown-it: registry.npmmirror.com/markdown-it/13.0.1
     dev: true
 
-  registry.npmmirror.com/@mdit/plugin-img-size/0.4.3:
-    resolution: {integrity: sha512-Gx4RLl+69lEyPYhCeX7wyH5ZFvVe9RSpwptxQNVq1RCgbo0votuJK8aQW6PsYUIxTa56N96aCBPytj0zEj5+dw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mdit/plugin-img-size/-/plugin-img-size-0.4.3.tgz}
+  registry.npmmirror.com/@mdit/plugin-img-size/0.3.0:
+    resolution: {integrity: sha512-cjj9hGJTiwNwAmuQPSRaQZNaguYBExHZREm1NboWI8zMCTvMXc1zZnTHb96WmD1n2K2c9L2pLkAuqPJu5Z8ZpA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mdit/plugin-img-size/-/plugin-img-size-0.3.0.tgz}
     name: '@mdit/plugin-img-size'
-    version: 0.4.3
+    version: 0.3.0
     engines: {node: '>= 14'}
     dependencies:
       '@types/markdown-it': registry.npmmirror.com/@types/markdown-it/12.2.3
       markdown-it: registry.npmmirror.com/markdown-it/13.0.1
     dev: true
 
-  registry.npmmirror.com/@mdit/plugin-include/0.4.3:
-    resolution: {integrity: sha512-4n2Pn7uy9botSUdyVxXzgguH2356GD7WDjk5KKAgfpUtQ6meWX8G8nQtLwzYcr3NyRMHqaHYqjKtYJoQyxKhkA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mdit/plugin-include/-/plugin-include-0.4.3.tgz}
+  registry.npmmirror.com/@mdit/plugin-include/0.3.0:
+    resolution: {integrity: sha512-rDH+4fqT3bv7+Nf5OT6LOvwn545ox5eE1eGHkZWty/XINbKmNP6VSdbgdieqAgJA4nlLCs4yscFk2vuzT8dqrQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mdit/plugin-include/-/plugin-include-0.3.0.tgz}
     name: '@mdit/plugin-include'
-    version: 0.4.3
+    version: 0.3.0
     dependencies:
       '@types/markdown-it': registry.npmmirror.com/@types/markdown-it/12.2.3
       markdown-it: registry.npmmirror.com/markdown-it/13.0.1
       upath: registry.npmmirror.com/upath/2.0.1
     dev: true
 
-  registry.npmmirror.com/@mdit/plugin-katex/0.4.3:
-    resolution: {integrity: sha512-rPQLplLJ5kWyUo1puqLjLJCaERIoZkiBQp27EQIJoqKOg3hGOMkAgw8D4n2mrC7VkKK46OeGExGaih/fwHXMWA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mdit/plugin-katex/-/plugin-katex-0.4.3.tgz}
+  registry.npmmirror.com/@mdit/plugin-katex/0.3.0:
+    resolution: {integrity: sha512-Uol7ZF2Yc4fBgQOwsy6cQQFkoIWXqV8o7Wf+I9ZJHYosbKZXFrfLkfDkWISSb+TzSTBCrRkrQtt6zi+4+nj9sw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mdit/plugin-katex/-/plugin-katex-0.3.0.tgz}
     name: '@mdit/plugin-katex'
-    version: 0.4.3
+    version: 0.3.0
     engines: {node: '>= 14'}
     dependencies:
-      '@mdit/plugin-tex': registry.npmmirror.com/@mdit/plugin-tex/0.4.3
+      '@mdit/plugin-tex': registry.npmmirror.com/@mdit/plugin-tex/0.3.0
       '@types/katex': registry.npmmirror.com/@types/katex/0.16.0
       '@types/markdown-it': registry.npmmirror.com/@types/markdown-it/12.2.3
       katex: registry.npmmirror.com/katex/0.16.4
       markdown-it: registry.npmmirror.com/markdown-it/13.0.1
     dev: true
 
-  registry.npmmirror.com/@mdit/plugin-mark/0.4.3:
-    resolution: {integrity: sha512-hjhHg7SYGwq+3S2rA89S1z+XcHzHJ6I12dTGCUsC/emYxP7Iq/rz2DZZI0c7UcDjNt9XP40T+kd/W5dFewJ0bA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mdit/plugin-mark/-/plugin-mark-0.4.3.tgz}
+  registry.npmmirror.com/@mdit/plugin-mark/0.3.0:
+    resolution: {integrity: sha512-LRCjS/q8ryg/yWnKCGIKWVxCRu36WBfUGDlCuw+cb59ptkbF24Q6Khs8pnZZGq6q+XSFHmYUCCHqp2q79XAvyA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mdit/plugin-mark/-/plugin-mark-0.3.0.tgz}
     name: '@mdit/plugin-mark'
-    version: 0.4.3
+    version: 0.3.0
     engines: {node: '>= 14'}
     dependencies:
       '@types/markdown-it': registry.npmmirror.com/@types/markdown-it/12.2.3
       markdown-it: registry.npmmirror.com/markdown-it/13.0.1
     dev: true
 
-  registry.npmmirror.com/@mdit/plugin-mathjax/0.4.3:
-    resolution: {integrity: sha512-NCDf0ZG6kVUZc2l1v+x4dGnX8RbAdRaMruwdOVEv2ry5shJ57rpOej267d/g0zgA/xbR72Xd5cq/+nfAEefRRQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mdit/plugin-mathjax/-/plugin-mathjax-0.4.3.tgz}
+  registry.npmmirror.com/@mdit/plugin-mathjax/0.3.0:
+    resolution: {integrity: sha512-9lvYnVd0kllsysikRr4f+OMS9zjM57QgEIB7e+dSDtYGMQISNxiLQvYap/pMMtY+zZQ51I7heGCjZ2OXmWEtbg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mdit/plugin-mathjax/-/plugin-mathjax-0.3.0.tgz}
     name: '@mdit/plugin-mathjax'
-    version: 0.4.3
+    version: 0.3.0
     engines: {node: '>= 14'}
     dependencies:
-      '@mdit/plugin-tex': registry.npmmirror.com/@mdit/plugin-tex/0.4.3
+      '@mdit/plugin-tex': registry.npmmirror.com/@mdit/plugin-tex/0.3.0
       '@types/markdown-it': registry.npmmirror.com/@types/markdown-it/12.2.3
       markdown-it: registry.npmmirror.com/markdown-it/13.0.1
       mathjax-full: registry.npmmirror.com/mathjax-full/3.2.2
       upath: registry.npmmirror.com/upath/2.0.1
     dev: true
 
-  registry.npmmirror.com/@mdit/plugin-stylize/0.4.3:
-    resolution: {integrity: sha512-pE5JlWMDAMePrHXilu5MZXer9anKqapwUIINww1ZecVcR5McdTt+pzv5zwYutI6LbL+NTWbj4VxHnHBEKo7IIQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mdit/plugin-stylize/-/plugin-stylize-0.4.3.tgz}
+  registry.npmmirror.com/@mdit/plugin-stylize/0.3.0:
+    resolution: {integrity: sha512-WT+ts6/Xd+K3ASlHDWa4ZHqDx4KgRsuHgLhmyvyAGY9ApNP1Q0ROY5Ik4bn92WVRU3WEfK8ICOEOnoEPEP2NJA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mdit/plugin-stylize/-/plugin-stylize-0.3.0.tgz}
     name: '@mdit/plugin-stylize'
-    version: 0.4.3
+    version: 0.3.0
     engines: {node: '>= 14'}
     dependencies:
       '@types/markdown-it': registry.npmmirror.com/@types/markdown-it/12.2.3
       markdown-it: registry.npmmirror.com/markdown-it/13.0.1
     dev: true
 
-  registry.npmmirror.com/@mdit/plugin-sub/0.4.3:
-    resolution: {integrity: sha512-RZPdtHb21/LrD7A2TkX2x/kQEKB8KdPwNeAKdEzT4IO+JArJj4wIkEr9SEpUGgugn7xGZX6/29Fbx3BDpoB3Bw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mdit/plugin-sub/-/plugin-sub-0.4.3.tgz}
+  registry.npmmirror.com/@mdit/plugin-sub/0.3.0:
+    resolution: {integrity: sha512-T4fYZqIJ2ZJOQ4WoURU813XL7Y6prs5jYaxLWteOqF9JkTcqNQ22hJcdGe5domIG/dH79IZqVHkJ7okoFOt/Xg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mdit/plugin-sub/-/plugin-sub-0.3.0.tgz}
     name: '@mdit/plugin-sub'
-    version: 0.4.3
+    version: 0.3.0
     engines: {node: '>= 14'}
     dependencies:
       '@types/markdown-it': registry.npmmirror.com/@types/markdown-it/12.2.3
       markdown-it: registry.npmmirror.com/markdown-it/13.0.1
     dev: true
 
-  registry.npmmirror.com/@mdit/plugin-sup/0.4.3:
-    resolution: {integrity: sha512-gAkb6QqS2HD7rePtwbiR1yEakGQJzbrwd6MPluMkx1aMC79fDRAqzqLl5OYPq2UswDYgFAqAvu+YroFMoIJIOA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mdit/plugin-sup/-/plugin-sup-0.4.3.tgz}
+  registry.npmmirror.com/@mdit/plugin-sup/0.3.0:
+    resolution: {integrity: sha512-K6L1/WK94XwFG+Oo54GVM9m+Y0cjinoiVtWjT0OIswCQWDuuXG7H4JH2uxBxQJb8MWNsnnQRUFnaG1RPiRP94Q==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mdit/plugin-sup/-/plugin-sup-0.3.0.tgz}
     name: '@mdit/plugin-sup'
-    version: 0.4.3
+    version: 0.3.0
     engines: {node: '>= 14'}
     dependencies:
       '@types/markdown-it': registry.npmmirror.com/@types/markdown-it/12.2.3
       markdown-it: registry.npmmirror.com/markdown-it/13.0.1
     dev: true
 
-  registry.npmmirror.com/@mdit/plugin-tab/0.4.3:
-    resolution: {integrity: sha512-x4Ii4M5tsRDYyQ/tkRbgglqdoXgr66d3NEoLOjMHG69boGugbxtsG8+rKEhQUaMSsTiLx5KQ2UNBE6ptXhJ2bQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mdit/plugin-tab/-/plugin-tab-0.4.3.tgz}
+  registry.npmmirror.com/@mdit/plugin-tab/0.3.0:
+    resolution: {integrity: sha512-mHnj+AZRem7Jilc1Auu7wL5Uo/S32Slp1WU3Of3RJn0LiQnEpZHKr/kpQutEWV+kZo/rIcTIxdCYWXBZqj38ng==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mdit/plugin-tab/-/plugin-tab-0.3.0.tgz}
     name: '@mdit/plugin-tab'
-    version: 0.4.3
+    version: 0.3.0
     dependencies:
       '@types/markdown-it': registry.npmmirror.com/@types/markdown-it/12.2.3
       markdown-it: registry.npmmirror.com/markdown-it/13.0.1
     dev: true
 
-  registry.npmmirror.com/@mdit/plugin-tasklist/0.4.3:
-    resolution: {integrity: sha512-KLkeUOTdYzKDw0llB37gDz14cwDveuyo8muxGxljdP0ZQKZsYGmGgLrHfZRXsZaGVqRvxAv8YfgI8F51tOjzMw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mdit/plugin-tasklist/-/plugin-tasklist-0.4.3.tgz}
+  registry.npmmirror.com/@mdit/plugin-tasklist/0.3.0:
+    resolution: {integrity: sha512-/nekYc2zSKxGFbTR2o6dXyqoUfQBrf9PX0O81ZOGIzaMI+t6y9q3tJwnmbwLD/QE1MeW6kaR4byCcD3rc1SyAQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mdit/plugin-tasklist/-/plugin-tasklist-0.3.0.tgz}
     name: '@mdit/plugin-tasklist'
-    version: 0.4.3
+    version: 0.3.0
     engines: {node: '>= 14'}
     dependencies:
       '@types/markdown-it': registry.npmmirror.com/@types/markdown-it/12.2.3
       markdown-it: registry.npmmirror.com/markdown-it/13.0.1
     dev: true
 
-  registry.npmmirror.com/@mdit/plugin-tex/0.4.3:
-    resolution: {integrity: sha512-tEaFaVQOK80THwD2RaG+nLfDloyiBOXYyFlaT6gSH/NsDRlCes/+OxJTGl5xWYr4UaVsTMMamoNWF/6vAIowAQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mdit/plugin-tex/-/plugin-tex-0.4.3.tgz}
+  registry.npmmirror.com/@mdit/plugin-tex/0.3.0:
+    resolution: {integrity: sha512-GXAOOBlk2me/noWOCbZeoqMsCcsIeNob+LhLYfk8q4w3rHJM9gdUI5JL05ClbvO7eNSSjQVZZ1tHfyjK08RvSg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mdit/plugin-tex/-/plugin-tex-0.3.0.tgz}
     name: '@mdit/plugin-tex'
-    version: 0.4.3
+    version: 0.3.0
     engines: {node: '>= 14'}
     dependencies:
       '@types/markdown-it': registry.npmmirror.com/@types/markdown-it/12.2.3
       markdown-it: registry.npmmirror.com/markdown-it/13.0.1
     dev: true
 
-  registry.npmmirror.com/@mdit/plugin-uml/0.4.3:
-    resolution: {integrity: sha512-s/XAo6H7DI3sTfNbt4XpUA+nIqXgQ7o8w9DRHu3tTJJ4mazKDKhxmnT5UNcGKCXfhHFMxCUqx/7x8whX+iyRFQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mdit/plugin-uml/-/plugin-uml-0.4.3.tgz}
+  registry.npmmirror.com/@mdit/plugin-uml/0.3.0:
+    resolution: {integrity: sha512-QS00olhRy3Ct5qwjFYBk6YtCZK5oLM8K4SyPND7LCrqiV3PiAtH8jXN9BnDmKQN+EhXXzFe3NlxRjNLvGu/JUw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mdit/plugin-uml/-/plugin-uml-0.3.0.tgz}
     name: '@mdit/plugin-uml'
-    version: 0.4.3
+    version: 0.3.0
     engines: {node: '>= 14'}
     dependencies:
       '@types/markdown-it': registry.npmmirror.com/@types/markdown-it/12.2.3
@@ -2208,12 +2201,6 @@ packages:
     version: 1.0.0
     dev: true
 
-  registry.npmmirror.com/@types/js-yaml/4.0.5:
-    resolution: {integrity: sha512-FhpRzf927MNQdRZP0J5DLIdTXhjLYzeUTmLAu69mnVksLH9CJY3IuSeEgbKUki7GQZm0WqDkGzyxju2EZGD2wA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/js-yaml/-/js-yaml-4.0.5.tgz}
-    name: '@types/js-yaml'
-    version: 4.0.5
-    dev: true
-
   registry.npmmirror.com/@types/jsonfile/6.1.1:
     resolution: {integrity: sha512-GSgiRCVeapDN+3pqA35IkQwasaCh/0YFH5dEF6S88iDvEn901DjOeH3/QPY+XYP1DFzDZPvIvfeEgk+7br5png==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/jsonfile/-/jsonfile-6.1.1.tgz}
     name: '@types/jsonfile'
@@ -2275,26 +2262,10 @@ packages:
     version: 18.15.11
     dev: true
 
-  registry.npmmirror.com/@types/prop-types/15.7.5:
-    resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/prop-types/-/prop-types-15.7.5.tgz}
-    name: '@types/prop-types'
-    version: 15.7.5
-    dev: true
-
   registry.npmmirror.com/@types/raphael/2.3.3:
     resolution: {integrity: sha512-Rhvq0q6wzyvipejki/9w87/pgapyE+s3gO66tdl1oD3qDrow+ek+4vVYAbRkeL58HCCK9EOZKwyjqYJ/TFkmtQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/raphael/-/raphael-2.3.3.tgz}
     name: '@types/raphael'
     version: 2.3.3
-    dev: true
-
-  registry.npmmirror.com/@types/react/18.0.35:
-    resolution: {integrity: sha512-6Laome31HpetaIUGFWl1VQ3mdSImwxtFZ39rh059a1MNnKGqBpC88J6NJ8n/Is3Qx7CefDGLgf/KhN/sYCf7ag==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/react/-/react-18.0.35.tgz}
-    name: '@types/react'
-    version: 18.0.35
-    dependencies:
-      '@types/prop-types': registry.npmmirror.com/@types/prop-types/15.7.5
-      '@types/scheduler': registry.npmmirror.com/@types/scheduler/0.16.3
-      csstype: registry.npmmirror.com/csstype/3.1.2
     dev: true
 
   registry.npmmirror.com/@types/resolve/1.17.1:
@@ -2311,12 +2282,6 @@ packages:
     version: 1.2.4
     dependencies:
       '@types/node': registry.npmmirror.com/@types/node/18.15.11
-    dev: true
-
-  registry.npmmirror.com/@types/scheduler/0.16.3:
-    resolution: {integrity: sha512-5cJ8CB4yAx7BH1oMvdU0Jh9lrEXyPkar6F9G/ERswkCuvP4KQZfZkSjcMbAICCpQTN4OuZn8tz0HiKv9TGZgrQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/scheduler/-/scheduler-0.16.3.tgz}
-    name: '@types/scheduler'
-    version: 0.16.3
     dev: true
 
   registry.npmmirror.com/@types/trusted-types/2.0.3:
@@ -3466,12 +3431,6 @@ packages:
     version: 2.6.21
     dev: true
 
-  registry.npmmirror.com/csstype/3.1.2:
-    resolution: {integrity: sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/csstype/-/csstype-3.1.2.tgz}
-    name: csstype
-    version: 3.1.2
-    dev: true
-
   registry.npmmirror.com/custom-event-polyfill/1.0.7:
     resolution: {integrity: sha512-TDDkd5DkaZxZFM8p+1I3yAlvM3rSr1wbrOliG4yJiwinMZN8z/iGL7BTlDkrJcYTmgUSb4ywVCc3ZaUtOtC76w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/custom-event-polyfill/-/custom-event-polyfill-1.0.7.tgz}
     name: custom-event-polyfill
@@ -3823,10 +3782,10 @@ packages:
       d3-zoom: registry.npmmirror.com/d3-zoom/3.0.0
     dev: true
 
-  registry.npmmirror.com/dagre-d3-es/7.0.10:
-    resolution: {integrity: sha512-qTCQmEhcynucuaZgY5/+ti3X/rnszKZhEQH/ZdWdtP1tA/y3VoHJzcVrO9pjjJCNpigfscAtoUB5ONcd2wNn0A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/dagre-d3-es/-/dagre-d3-es-7.0.10.tgz}
+  registry.npmmirror.com/dagre-d3-es/7.0.9:
+    resolution: {integrity: sha512-rYR4QfVmy+sR44IBDvVtcAmOReGBvRCWDpO2QjYwqgh9yijw6eSHBqaPG/LIOEy7aBsniLvtMW6pg19qJhq60w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/dagre-d3-es/-/dagre-d3-es-7.0.9.tgz}
     name: dagre-d3-es
-    version: 7.0.10
+    version: 7.0.9
     dependencies:
       d3: registry.npmmirror.com/d3/7.8.4
       lodash-es: registry.npmmirror.com/lodash-es/4.17.21
@@ -3949,10 +3908,10 @@ packages:
       domelementtype: registry.npmmirror.com/domelementtype/2.3.0
     dev: true
 
-  registry.npmmirror.com/dompurify/2.4.5:
-    resolution: {integrity: sha512-jggCCd+8Iqp4Tsz0nIvpcb22InKEBrGz5dw3EQJMs8HPJDsKbFIO3STYtAvCfDx26Muevn1MHVI0XxjgFfmiSA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/dompurify/-/dompurify-2.4.5.tgz}
+  registry.npmmirror.com/dompurify/2.4.3:
+    resolution: {integrity: sha512-q6QaLcakcRjebxjg8/+NP+h0rPfatOgOzc46Fst9VAA3jF2ApfKBNKMzdP4DYTqtUMXSCd5pRS/8Po/OmoCHZQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/dompurify/-/dompurify-2.4.3.tgz}
     name: dompurify
-    version: 2.4.5
+    version: 2.4.3
     dev: true
 
   registry.npmmirror.com/domutils/3.0.1:
@@ -4996,15 +4955,6 @@ packages:
       esprima: registry.npmmirror.com/esprima/4.0.1
     dev: true
 
-  registry.npmmirror.com/js-yaml/4.1.0:
-    resolution: {integrity: sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/js-yaml/-/js-yaml-4.1.0.tgz}
-    name: js-yaml
-    version: 4.1.0
-    hasBin: true
-    dependencies:
-      argparse: registry.npmmirror.com/argparse/2.0.1
-    dev: true
-
   registry.npmmirror.com/jsesc/0.5.0:
     resolution: {integrity: sha512-uZz5UnB7u4T9LvwmFqXii7pZSouaRPorGs5who1Ip7VO0wxanFvBL7GkM6dTHlgX+jhBApRetaWpnDabOeTcnA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/jsesc/-/jsesc-0.5.0.tgz}
     name: jsesc
@@ -5313,24 +5263,19 @@ packages:
     engines: {node: '>= 8'}
     dev: true
 
-  registry.npmmirror.com/mermaid/10.1.0:
-    resolution: {integrity: sha512-LYekSMNJygI1VnMizAPUddY95hZxOjwZxr7pODczILInO0dhQKuhXeu4sargtnuTwCilSuLS7Uiq/Qn7HTVrmA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/mermaid/-/mermaid-10.1.0.tgz}
+  registry.npmmirror.com/mermaid/10.0.2:
+    resolution: {integrity: sha512-slwoB9WdNUT+/W9VhxLYRLZ0Ey12fIE+cAZjm3FmHTD+0F1uoJETfsNbVS1POnvQZhFYzfT6/z6hJZXgecqVBA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/mermaid/-/mermaid-10.0.2.tgz}
     name: mermaid
-    version: 10.1.0
+    version: 10.0.2
     dependencies:
       '@braintree/sanitize-url': registry.npmmirror.com/@braintree/sanitize-url/6.0.2
-      '@khanacademy/simple-markdown': registry.npmmirror.com/@khanacademy/simple-markdown/0.8.6
       cytoscape: registry.npmmirror.com/cytoscape/3.23.0
       cytoscape-cose-bilkent: registry.npmmirror.com/cytoscape-cose-bilkent/4.1.0_cytoscape@3.23.0
       cytoscape-fcose: registry.npmmirror.com/cytoscape-fcose/2.2.0_cytoscape@3.23.0
       d3: registry.npmmirror.com/d3/7.8.4
-<<<<<<< HEAD
       dagre-d3-es: registry.npmmirror.com/dagre-d3-es/7.0.9
-=======
-      dagre-d3-es: registry.npmmirror.com/dagre-d3-es/7.0.10
->>>>>>> a6d8403a312083f6cadb746e352b8b5f0e304cf6
       dayjs: registry.npmmirror.com/dayjs/1.11.7
-      dompurify: registry.npmmirror.com/dompurify/2.4.5
+      dompurify: registry.npmmirror.com/dompurify/2.4.3
       elkjs: registry.npmmirror.com/elkjs/0.8.2
       khroma: registry.npmmirror.com/khroma/2.0.0
       lodash-es: registry.npmmirror.com/lodash-es/4.17.21
@@ -5339,9 +5284,6 @@ packages:
       ts-dedent: registry.npmmirror.com/ts-dedent/2.2.0
       uuid: registry.npmmirror.com/uuid/9.0.0
       web-worker: registry.npmmirror.com/web-worker/1.2.0
-    transitivePeerDependencies:
-      - react
-      - react-dom
     dev: true
 
   registry.npmmirror.com/mhchemparser/4.1.1:
@@ -6634,21 +6576,30 @@ packages:
       '@vue/shared': registry.npmmirror.com/@vue/shared/3.2.47
     dev: true
 
-  registry.npmmirror.com/vuepress-plugin-auto-catalog/2.0.0-beta.203_vuepress@2.0.0-beta.61:
-    resolution: {integrity: sha512-RhfksOQ/xEp8xdqbGF9W1f9yyDoA3BS6iEqMMrdk1Ilr/u9oICEhQD08uZX5uFy7CpJis88oADwzBL3syCHg7Q==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vuepress-plugin-auto-catalog/-/vuepress-plugin-auto-catalog-2.0.0-beta.203.tgz}
-    id: registry.npmmirror.com/vuepress-plugin-auto-catalog/2.0.0-beta.203
+  registry.npmmirror.com/vuepress-plugin-auto-catalog/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe:
+    resolution: {integrity: sha512-3ePxekqbH6oTwzC5S/hzClxR2Yje1ealh4BylKOU5D4gzxPmgb0h835Gg34bMp+/LS2H+GRr8h/LwHe5wrduFw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vuepress-plugin-auto-catalog/-/vuepress-plugin-auto-catalog-2.0.0-beta.199.tgz}
+    id: registry.npmmirror.com/vuepress-plugin-auto-catalog/2.0.0-beta.199
     name: vuepress-plugin-auto-catalog
-    version: 2.0.0-beta.203
+    version: 2.0.0-beta.199
     engines: {node: ^14.18.0 || >=16.0.0, npm: '>=8', pnpm: '>=7'}
     peerDependencies:
-      sass-loader: ^13.2.2
+      '@vuepress/client': 2.0.0-beta.61
+      sass-loader: ^13.2.0
       vuepress: 2.0.0-beta.61
       vuepress-vite: 2.0.0-beta.61
       vuepress-webpack: 2.0.0-beta.61
     peerDependenciesMeta:
+      '@vuepress/client':
+        optional: true
       sass-loader:
         optional: true
       vuepress:
+        optional: true
+      vuepress-plugin-components:
+        optional: true
+      vuepress-plugin-sass-palette:
+        optional: true
+      vuepress-shared:
         optional: true
       vuepress-vite:
         optional: true
@@ -6662,26 +6613,31 @@ packages:
       vue: registry.npmmirror.com/vue/3.2.47
       vue-router: registry.npmmirror.com/vue-router/4.1.6_vue@3.2.47
       vuepress: registry.npmmirror.com/vuepress/2.0.0-beta.61_zcwlgd45apez724duilctoxt4u
-      vuepress-plugin-components: registry.npmmirror.com/vuepress-plugin-components/2.0.0-beta.203_vuepress@2.0.0-beta.61
-      vuepress-plugin-sass-palette: registry.npmmirror.com/vuepress-plugin-sass-palette/2.0.0-beta.203_vuepress@2.0.0-beta.61
-      vuepress-shared: registry.npmmirror.com/vuepress-shared/2.0.0-beta.203_vuepress@2.0.0-beta.61
+      vuepress-plugin-components: registry.npmmirror.com/vuepress-plugin-components/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe
+      vuepress-plugin-sass-palette: registry.npmmirror.com/vuepress-plugin-sass-palette/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe
+      vuepress-shared: registry.npmmirror.com/vuepress-shared/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe
     transitivePeerDependencies:
       - '@vue/composition-api'
       - supports-color
     dev: true
 
-  registry.npmmirror.com/vuepress-plugin-blog2/2.0.0-beta.203_vuepress@2.0.0-beta.61:
-    resolution: {integrity: sha512-mHPe1/zziVb5jQlOoKDSXAS8IfhKyimvYSEtTerIrbItqg7/cznQaX2C+QyxXZ4bYwvQFKv6YMMSlVzxVyJduw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vuepress-plugin-blog2/-/vuepress-plugin-blog2-2.0.0-beta.203.tgz}
-    id: registry.npmmirror.com/vuepress-plugin-blog2/2.0.0-beta.203
+  registry.npmmirror.com/vuepress-plugin-blog2/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe:
+    resolution: {integrity: sha512-eKTJHwwKq9kRoeiL26FNnlC7qJdQMrzc9NVWHKlqAzDcrTGPna8Fztzdxbt9rsOlgouGv33EHGlsv5bhuPY8JQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vuepress-plugin-blog2/-/vuepress-plugin-blog2-2.0.0-beta.199.tgz}
+    id: registry.npmmirror.com/vuepress-plugin-blog2/2.0.0-beta.199
     name: vuepress-plugin-blog2
-    version: 2.0.0-beta.203
+    version: 2.0.0-beta.199
     engines: {node: ^14.18.0 || >=16.0.0, npm: '>=8', pnpm: '>=7'}
     peerDependencies:
+      '@vuepress/client': 2.0.0-beta.61
       vuepress: 2.0.0-beta.61
       vuepress-vite: 2.0.0-beta.61
       vuepress-webpack: 2.0.0-beta.61
     peerDependenciesMeta:
+      '@vuepress/client':
+        optional: true
       vuepress:
+        optional: true
+      vuepress-shared:
         optional: true
       vuepress-vite:
         optional: true
@@ -6696,27 +6652,34 @@ packages:
       vue: registry.npmmirror.com/vue/3.2.47
       vue-router: registry.npmmirror.com/vue-router/4.1.6_vue@3.2.47
       vuepress: registry.npmmirror.com/vuepress/2.0.0-beta.61_zcwlgd45apez724duilctoxt4u
-      vuepress-shared: registry.npmmirror.com/vuepress-shared/2.0.0-beta.203_vuepress@2.0.0-beta.61
+      vuepress-shared: registry.npmmirror.com/vuepress-shared/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe
     transitivePeerDependencies:
       - '@vue/composition-api'
       - supports-color
     dev: true
 
-  registry.npmmirror.com/vuepress-plugin-comment2/2.0.0-beta.203_vuepress@2.0.0-beta.61:
-    resolution: {integrity: sha512-blht4Xl6qdNA/Vu8kexBawo0xhbFsW1geJlCrO5hqlrq9Vu7Eksy9l8rfNWvAQp96a4P0vaJ73bIxqPLKQuQhA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vuepress-plugin-comment2/-/vuepress-plugin-comment2-2.0.0-beta.203.tgz}
-    id: registry.npmmirror.com/vuepress-plugin-comment2/2.0.0-beta.203
+  registry.npmmirror.com/vuepress-plugin-comment2/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe:
+    resolution: {integrity: sha512-LWTHOrhIKPat4PEzuq3+AfUv2OtQ9fhkgtKW898TkB1g5a8wjja7ErqcMYYrFj/PJ77NVCQjqj/q6n9rylJG1g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vuepress-plugin-comment2/-/vuepress-plugin-comment2-2.0.0-beta.199.tgz}
+    id: registry.npmmirror.com/vuepress-plugin-comment2/2.0.0-beta.199
     name: vuepress-plugin-comment2
-    version: 2.0.0-beta.203
+    version: 2.0.0-beta.199
     engines: {node: ^14.18.0 || >=16.0.0, npm: '>=8', pnpm: '>=7'}
     peerDependencies:
-      sass-loader: ^13.2.2
+      '@vuepress/client': 2.0.0-beta.61
+      sass-loader: ^13.2.0
       vuepress: 2.0.0-beta.61
       vuepress-vite: 2.0.0-beta.61
       vuepress-webpack: 2.0.0-beta.61
     peerDependenciesMeta:
+      '@vuepress/client':
+        optional: true
       sass-loader:
         optional: true
       vuepress:
+        optional: true
+      vuepress-plugin-sass-palette:
+        optional: true
+      vuepress-shared:
         optional: true
       vuepress-vite:
         optional: true
@@ -6733,28 +6696,37 @@ packages:
       vue: registry.npmmirror.com/vue/3.2.47
       vue-router: registry.npmmirror.com/vue-router/4.1.6_vue@3.2.47
       vuepress: registry.npmmirror.com/vuepress/2.0.0-beta.61_zcwlgd45apez724duilctoxt4u
-      vuepress-plugin-sass-palette: registry.npmmirror.com/vuepress-plugin-sass-palette/2.0.0-beta.203_vuepress@2.0.0-beta.61
-      vuepress-shared: registry.npmmirror.com/vuepress-shared/2.0.0-beta.203_vuepress@2.0.0-beta.61
+      vuepress-plugin-sass-palette: registry.npmmirror.com/vuepress-plugin-sass-palette/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe
+      vuepress-shared: registry.npmmirror.com/vuepress-shared/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe
     transitivePeerDependencies:
       - '@vue/composition-api'
       - supports-color
     dev: true
 
-  registry.npmmirror.com/vuepress-plugin-components/2.0.0-beta.203_vuepress@2.0.0-beta.61:
-    resolution: {integrity: sha512-aEctXH6kVe8BhfH4h+df3Vnl/NPiNUG/eJjHF58uun27Nz2GHA8mUXJ5GAkTUpUFPEwUWrI/CXD2sIlhe7mlUQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vuepress-plugin-components/-/vuepress-plugin-components-2.0.0-beta.203.tgz}
-    id: registry.npmmirror.com/vuepress-plugin-components/2.0.0-beta.203
+  registry.npmmirror.com/vuepress-plugin-components/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe:
+    resolution: {integrity: sha512-vyNzMKmV3iJeNjLemDOaRIUONvksQ5cf4yxgSYW2LXaub1xRUAQQcpqmoAUcVDx9LmJo53MhoLy/U3NnwINnJg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vuepress-plugin-components/-/vuepress-plugin-components-2.0.0-beta.199.tgz}
+    id: registry.npmmirror.com/vuepress-plugin-components/2.0.0-beta.199
     name: vuepress-plugin-components
-    version: 2.0.0-beta.203
+    version: 2.0.0-beta.199
     engines: {node: ^14.18.0 || >=16.0.0, npm: '>=8', pnpm: '>=7'}
     peerDependencies:
-      sass-loader: ^13.2.2
+      '@vuepress/client': 2.0.0-beta.61
+      sass-loader: ^13.2.0
       vuepress: 2.0.0-beta.61
       vuepress-vite: 2.0.0-beta.61
       vuepress-webpack: 2.0.0-beta.61
     peerDependenciesMeta:
+      '@vuepress/client':
+        optional: true
       sass-loader:
         optional: true
       vuepress:
+        optional: true
+      vuepress-plugin-reading-time2:
+        optional: true
+      vuepress-plugin-sass-palette:
+        optional: true
+      vuepress-shared:
         optional: true
       vuepress-vite:
         optional: true
@@ -6776,29 +6748,36 @@ packages:
       vue: registry.npmmirror.com/vue/3.2.47
       vue-router: registry.npmmirror.com/vue-router/4.1.6_vue@3.2.47
       vuepress: registry.npmmirror.com/vuepress/2.0.0-beta.61_zcwlgd45apez724duilctoxt4u
-      vuepress-plugin-reading-time2: registry.npmmirror.com/vuepress-plugin-reading-time2/2.0.0-beta.203_vuepress@2.0.0-beta.61
-      vuepress-plugin-sass-palette: registry.npmmirror.com/vuepress-plugin-sass-palette/2.0.0-beta.203_vuepress@2.0.0-beta.61
-      vuepress-shared: registry.npmmirror.com/vuepress-shared/2.0.0-beta.203_vuepress@2.0.0-beta.61
+      vuepress-plugin-reading-time2: registry.npmmirror.com/vuepress-plugin-reading-time2/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe
+      vuepress-plugin-sass-palette: registry.npmmirror.com/vuepress-plugin-sass-palette/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe
+      vuepress-shared: registry.npmmirror.com/vuepress-shared/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe
     transitivePeerDependencies:
       - '@vue/composition-api'
       - supports-color
     dev: true
 
-  registry.npmmirror.com/vuepress-plugin-copy-code2/2.0.0-beta.203_vuepress@2.0.0-beta.61:
-    resolution: {integrity: sha512-Y0MxQyBRXOCdQz/Vjnfn3xAmX9Qu7TGzb3K9DkTsY/a3WMIEvQRS0Lr4DJK5b/KvWppMqeaglJd/d1hyrNxN/Q==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vuepress-plugin-copy-code2/-/vuepress-plugin-copy-code2-2.0.0-beta.203.tgz}
-    id: registry.npmmirror.com/vuepress-plugin-copy-code2/2.0.0-beta.203
+  registry.npmmirror.com/vuepress-plugin-copy-code2/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe:
+    resolution: {integrity: sha512-5GTxuf6GW6FeP7OTonEZ0ar77MmVg8unUWvhNbihWaQtdT5KcMhjE/8O2f3j2MS0w1d8NaM13J6+HIjzJKIqFw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vuepress-plugin-copy-code2/-/vuepress-plugin-copy-code2-2.0.0-beta.199.tgz}
+    id: registry.npmmirror.com/vuepress-plugin-copy-code2/2.0.0-beta.199
     name: vuepress-plugin-copy-code2
-    version: 2.0.0-beta.203
+    version: 2.0.0-beta.199
     engines: {node: ^14.18.0 || >=16.0.0, npm: '>=8', pnpm: '>=7'}
     peerDependencies:
-      sass-loader: ^13.2.2
+      '@vuepress/client': 2.0.0-beta.61
+      sass-loader: ^13.2.0
       vuepress: 2.0.0-beta.61
       vuepress-vite: 2.0.0-beta.61
       vuepress-webpack: 2.0.0-beta.61
     peerDependenciesMeta:
+      '@vuepress/client':
+        optional: true
       sass-loader:
         optional: true
       vuepress:
+        optional: true
+      vuepress-plugin-sass-palette:
+        optional: true
+      vuepress-shared:
         optional: true
       vuepress-vite:
         optional: true
@@ -6813,25 +6792,30 @@ packages:
       vue: registry.npmmirror.com/vue/3.2.47
       vue-router: registry.npmmirror.com/vue-router/4.1.6_vue@3.2.47
       vuepress: registry.npmmirror.com/vuepress/2.0.0-beta.61_zcwlgd45apez724duilctoxt4u
-      vuepress-plugin-sass-palette: registry.npmmirror.com/vuepress-plugin-sass-palette/2.0.0-beta.203_vuepress@2.0.0-beta.61
-      vuepress-shared: registry.npmmirror.com/vuepress-shared/2.0.0-beta.203_vuepress@2.0.0-beta.61
+      vuepress-plugin-sass-palette: registry.npmmirror.com/vuepress-plugin-sass-palette/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe
+      vuepress-shared: registry.npmmirror.com/vuepress-shared/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe
     transitivePeerDependencies:
       - '@vue/composition-api'
       - supports-color
     dev: true
 
-  registry.npmmirror.com/vuepress-plugin-copyright2/2.0.0-beta.203_vuepress@2.0.0-beta.61:
-    resolution: {integrity: sha512-wR5AsigUQolgQ3RwMbNwUpEqorhoOZzPB69dcVS024G/R6VRPbp7wwX/l7cjEbUZPR75VFhBTnMQyiL+VeiF+g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vuepress-plugin-copyright2/-/vuepress-plugin-copyright2-2.0.0-beta.203.tgz}
-    id: registry.npmmirror.com/vuepress-plugin-copyright2/2.0.0-beta.203
+  registry.npmmirror.com/vuepress-plugin-copyright2/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe:
+    resolution: {integrity: sha512-qw+lP3LPuA1XRITUP5TvlkQ913/ewsaaUhkOgYllufZO47LRc+BwopWTw++9mvoYw4burupYTknZ/pvrd5lIsw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vuepress-plugin-copyright2/-/vuepress-plugin-copyright2-2.0.0-beta.199.tgz}
+    id: registry.npmmirror.com/vuepress-plugin-copyright2/2.0.0-beta.199
     name: vuepress-plugin-copyright2
-    version: 2.0.0-beta.203
+    version: 2.0.0-beta.199
     engines: {node: ^14.18.0 || >=16.0.0, npm: '>=8', pnpm: '>=7'}
     peerDependencies:
+      '@vuepress/client': 2.0.0-beta.61
       vuepress: 2.0.0-beta.61
       vuepress-vite: 2.0.0-beta.61
       vuepress-webpack: 2.0.0-beta.61
     peerDependenciesMeta:
+      '@vuepress/client':
+        optional: true
       vuepress:
+        optional: true
+      vuepress-shared:
         optional: true
       vuepress-vite:
         optional: true
@@ -6845,17 +6829,17 @@ packages:
       vue: registry.npmmirror.com/vue/3.2.47
       vue-router: registry.npmmirror.com/vue-router/4.1.6_vue@3.2.47
       vuepress: registry.npmmirror.com/vuepress/2.0.0-beta.61_zcwlgd45apez724duilctoxt4u
-      vuepress-shared: registry.npmmirror.com/vuepress-shared/2.0.0-beta.203_vuepress@2.0.0-beta.61
+      vuepress-shared: registry.npmmirror.com/vuepress-shared/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe
     transitivePeerDependencies:
       - '@vue/composition-api'
       - supports-color
     dev: true
 
-  registry.npmmirror.com/vuepress-plugin-feed2/2.0.0-beta.203_vuepress@2.0.0-beta.61:
-    resolution: {integrity: sha512-J+MqLJp5d/rsGsXhH6Sxce2i9aXZ3s/9Sp/gej+MsLM+ZMENi9sXKQM+W0VZl2z4foxr8kX/8tmSzN294Ecv7A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vuepress-plugin-feed2/-/vuepress-plugin-feed2-2.0.0-beta.203.tgz}
-    id: registry.npmmirror.com/vuepress-plugin-feed2/2.0.0-beta.203
+  registry.npmmirror.com/vuepress-plugin-feed2/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe:
+    resolution: {integrity: sha512-QpnHOsbbdLvZZIB3m4sGlHLE5fYPlsPY44AG+522QzZlKJyHL1DYHyNIWnPsliQe/Hwhtb8dybfsS8Xx0+ZwGg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vuepress-plugin-feed2/-/vuepress-plugin-feed2-2.0.0-beta.199.tgz}
+    id: registry.npmmirror.com/vuepress-plugin-feed2/2.0.0-beta.199
     name: vuepress-plugin-feed2
-    version: 2.0.0-beta.203
+    version: 2.0.0-beta.199
     engines: {node: ^14.18.0 || >=16.0.0, npm: '>=8', pnpm: '>=7'}
     peerDependencies:
       vuepress: 2.0.0-beta.61
@@ -6873,28 +6857,36 @@ packages:
       '@vuepress/utils': registry.npmmirror.com/@vuepress/utils/2.0.0-beta.61
       cheerio: registry.npmmirror.com/cheerio/1.0.0-rc.12
       vuepress: registry.npmmirror.com/vuepress/2.0.0-beta.61_zcwlgd45apez724duilctoxt4u
-      vuepress-shared: registry.npmmirror.com/vuepress-shared/2.0.0-beta.203_vuepress@2.0.0-beta.61
+      vuepress-shared: registry.npmmirror.com/vuepress-shared/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe
       xml-js: registry.npmmirror.com/xml-js/1.6.11
     transitivePeerDependencies:
       - '@vue/composition-api'
+      - '@vuepress/client'
       - supports-color
     dev: true
 
-  registry.npmmirror.com/vuepress-plugin-md-enhance/2.0.0-beta.203_vuepress@2.0.0-beta.61:
-    resolution: {integrity: sha512-QZMdt+tjS85HBsgYW8OOoT4Kl5DfAFB3cRYqEuNz6S/D6zcKgTntWRX6FIa8bZNWhRHsR829cXAinIUkZh5z+w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vuepress-plugin-md-enhance/-/vuepress-plugin-md-enhance-2.0.0-beta.203.tgz}
-    id: registry.npmmirror.com/vuepress-plugin-md-enhance/2.0.0-beta.203
+  registry.npmmirror.com/vuepress-plugin-md-enhance/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe:
+    resolution: {integrity: sha512-DSLyHuH1IbZEqWTNs4+NFXcDHGKHbK5oIhZk3lsm2/m588vJyk8RM5/x8uI4fCVbtJcOtW+bxeUyJyikk6pPTQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vuepress-plugin-md-enhance/-/vuepress-plugin-md-enhance-2.0.0-beta.199.tgz}
+    id: registry.npmmirror.com/vuepress-plugin-md-enhance/2.0.0-beta.199
     name: vuepress-plugin-md-enhance
-    version: 2.0.0-beta.203
+    version: 2.0.0-beta.199
     engines: {node: ^14.18.0 || >=16.0.0, npm: '>=8', pnpm: '>=7'}
     peerDependencies:
-      sass-loader: ^13.2.2
+      '@vuepress/client': 2.0.0-beta.61
+      sass-loader: ^13.2.0
       vuepress: 2.0.0-beta.61
       vuepress-vite: 2.0.0-beta.61
       vuepress-webpack: 2.0.0-beta.61
     peerDependenciesMeta:
+      '@vuepress/client':
+        optional: true
       sass-loader:
         optional: true
       vuepress:
+        optional: true
+      vuepress-plugin-sass-palette:
+        optional: true
+      vuepress-shared:
         optional: true
       vuepress-vite:
         optional: true
@@ -6902,7 +6894,6 @@ packages:
         optional: true
     dependencies:
       '@babel/core': registry.npmmirror.com/@babel/core/7.21.4
-<<<<<<< HEAD
       '@mdit/plugin-align': registry.npmmirror.com/@mdit/plugin-align/0.3.0
       '@mdit/plugin-attrs': registry.npmmirror.com/@mdit/plugin-attrs/0.3.0
       '@mdit/plugin-container': registry.npmmirror.com/@mdit/plugin-container/0.3.0
@@ -6922,28 +6913,6 @@ packages:
       '@mdit/plugin-tasklist': registry.npmmirror.com/@mdit/plugin-tasklist/0.3.0
       '@mdit/plugin-tex': registry.npmmirror.com/@mdit/plugin-tex/0.3.0
       '@mdit/plugin-uml': registry.npmmirror.com/@mdit/plugin-uml/0.3.0
-=======
-      '@mdit/plugin-align': registry.npmmirror.com/@mdit/plugin-align/0.4.3
-      '@mdit/plugin-attrs': registry.npmmirror.com/@mdit/plugin-attrs/0.4.3
-      '@mdit/plugin-container': registry.npmmirror.com/@mdit/plugin-container/0.4.3
-      '@mdit/plugin-figure': registry.npmmirror.com/@mdit/plugin-figure/0.4.3
-      '@mdit/plugin-footnote': registry.npmmirror.com/@mdit/plugin-footnote/0.4.3
-      '@mdit/plugin-img-lazyload': registry.npmmirror.com/@mdit/plugin-img-lazyload/0.4.3
-      '@mdit/plugin-img-mark': registry.npmmirror.com/@mdit/plugin-img-mark/0.4.3
-      '@mdit/plugin-img-size': registry.npmmirror.com/@mdit/plugin-img-size/0.4.3
-      '@mdit/plugin-include': registry.npmmirror.com/@mdit/plugin-include/0.4.3
-      '@mdit/plugin-katex': registry.npmmirror.com/@mdit/plugin-katex/0.4.3
-      '@mdit/plugin-mark': registry.npmmirror.com/@mdit/plugin-mark/0.4.3
-      '@mdit/plugin-mathjax': registry.npmmirror.com/@mdit/plugin-mathjax/0.4.3
-      '@mdit/plugin-stylize': registry.npmmirror.com/@mdit/plugin-stylize/0.4.3
-      '@mdit/plugin-sub': registry.npmmirror.com/@mdit/plugin-sub/0.4.3
-      '@mdit/plugin-sup': registry.npmmirror.com/@mdit/plugin-sup/0.4.3
-      '@mdit/plugin-tab': registry.npmmirror.com/@mdit/plugin-tab/0.4.3
-      '@mdit/plugin-tasklist': registry.npmmirror.com/@mdit/plugin-tasklist/0.4.3
-      '@mdit/plugin-tex': registry.npmmirror.com/@mdit/plugin-tex/0.4.3
-      '@mdit/plugin-uml': registry.npmmirror.com/@mdit/plugin-uml/0.4.3
-      '@types/js-yaml': registry.npmmirror.com/@types/js-yaml/4.0.5
->>>>>>> a6d8403a312083f6cadb746e352b8b5f0e304cf6
       '@types/markdown-it': registry.npmmirror.com/@types/markdown-it/12.2.3
       '@vue/repl': registry.npmmirror.com/@vue/repl/1.4.0_vue@3.2.47
       '@vuepress/client': registry.npmmirror.com/@vuepress/client/2.0.0-beta.61
@@ -6954,38 +6923,42 @@ packages:
       chart.js: registry.npmmirror.com/chart.js/4.2.1
       echarts: registry.npmmirror.com/echarts/5.4.2
       flowchart.ts: registry.npmmirror.com/flowchart.ts/0.1.2
-      js-yaml: registry.npmmirror.com/js-yaml/4.1.0
       katex: registry.npmmirror.com/katex/0.16.4
       markdown-it: registry.npmmirror.com/markdown-it/13.0.1
-      mermaid: registry.npmmirror.com/mermaid/10.1.0
+      mermaid: registry.npmmirror.com/mermaid/10.0.2
       reveal.js: registry.npmmirror.com/reveal.js/4.4.0
       vue: registry.npmmirror.com/vue/3.2.47
       vue-router: registry.npmmirror.com/vue-router/4.1.6_vue@3.2.47
       vuepress: registry.npmmirror.com/vuepress/2.0.0-beta.61_zcwlgd45apez724duilctoxt4u
-      vuepress-plugin-sass-palette: registry.npmmirror.com/vuepress-plugin-sass-palette/2.0.0-beta.203_vuepress@2.0.0-beta.61
-      vuepress-shared: registry.npmmirror.com/vuepress-shared/2.0.0-beta.203_vuepress@2.0.0-beta.61
+      vuepress-plugin-sass-palette: registry.npmmirror.com/vuepress-plugin-sass-palette/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe
+      vuepress-shared: registry.npmmirror.com/vuepress-shared/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe
     transitivePeerDependencies:
       - '@vue/composition-api'
-      - react
-      - react-dom
       - supports-color
     dev: true
 
-  registry.npmmirror.com/vuepress-plugin-photo-swipe/2.0.0-beta.203_vuepress@2.0.0-beta.61:
-    resolution: {integrity: sha512-RR0P/jd5BB/M41wm48dIHAnyaQSDt8Zzp4gRR0ZUgU8W/+CAOqfhZtxHf7ktgsWkLLaYW/drHqhLryW4HBb3cQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vuepress-plugin-photo-swipe/-/vuepress-plugin-photo-swipe-2.0.0-beta.203.tgz}
-    id: registry.npmmirror.com/vuepress-plugin-photo-swipe/2.0.0-beta.203
+  registry.npmmirror.com/vuepress-plugin-photo-swipe/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe:
+    resolution: {integrity: sha512-8p0g3IwiXjP4mQx5wfx2fooRDdIXj4dSlOyMvDTBC/UoKOd/lIBCHev4E+7F9wE+3zi+7/QOz9wiY4sGpmCZPQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vuepress-plugin-photo-swipe/-/vuepress-plugin-photo-swipe-2.0.0-beta.199.tgz}
+    id: registry.npmmirror.com/vuepress-plugin-photo-swipe/2.0.0-beta.199
     name: vuepress-plugin-photo-swipe
-    version: 2.0.0-beta.203
+    version: 2.0.0-beta.199
     engines: {node: ^14.18.0 || >=16.0.0, npm: '>=8', pnpm: '>=7'}
     peerDependencies:
-      sass-loader: ^13.2.2
+      '@vuepress/client': 2.0.0-beta.61
+      sass-loader: ^13.2.0
       vuepress: 2.0.0-beta.61
       vuepress-vite: 2.0.0-beta.61
       vuepress-webpack: 2.0.0-beta.61
     peerDependenciesMeta:
+      '@vuepress/client':
+        optional: true
       sass-loader:
         optional: true
       vuepress:
+        optional: true
+      vuepress-plugin-sass-palette:
+        optional: true
+      vuepress-shared:
         optional: true
       vuepress-vite:
         optional: true
@@ -7000,28 +6973,35 @@ packages:
       vue: registry.npmmirror.com/vue/3.2.47
       vue-router: registry.npmmirror.com/vue-router/4.1.6_vue@3.2.47
       vuepress: registry.npmmirror.com/vuepress/2.0.0-beta.61_zcwlgd45apez724duilctoxt4u
-      vuepress-plugin-sass-palette: registry.npmmirror.com/vuepress-plugin-sass-palette/2.0.0-beta.203_vuepress@2.0.0-beta.61
-      vuepress-shared: registry.npmmirror.com/vuepress-shared/2.0.0-beta.203_vuepress@2.0.0-beta.61
+      vuepress-plugin-sass-palette: registry.npmmirror.com/vuepress-plugin-sass-palette/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe
+      vuepress-shared: registry.npmmirror.com/vuepress-shared/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe
     transitivePeerDependencies:
       - '@vue/composition-api'
       - supports-color
     dev: true
 
-  registry.npmmirror.com/vuepress-plugin-pwa2/2.0.0-beta.203_vuepress@2.0.0-beta.61:
-    resolution: {integrity: sha512-xawf7qkKL8S0nskyTvdmfFRTGNwiebdBuUo24FmzGEAYJ3cfiiUmq3dZuFx6cuHEKj5cqbPBrqR6Xi6ua769TA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vuepress-plugin-pwa2/-/vuepress-plugin-pwa2-2.0.0-beta.203.tgz}
-    id: registry.npmmirror.com/vuepress-plugin-pwa2/2.0.0-beta.203
+  registry.npmmirror.com/vuepress-plugin-pwa2/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe:
+    resolution: {integrity: sha512-3thkdpTds80x/Ab4wVVhb4mkBfMPh0juiQjeI57zNS45v1HMc0KfivoFAAr7OL9gWadOwaUVx/FvYCku4PG2rA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vuepress-plugin-pwa2/-/vuepress-plugin-pwa2-2.0.0-beta.199.tgz}
+    id: registry.npmmirror.com/vuepress-plugin-pwa2/2.0.0-beta.199
     name: vuepress-plugin-pwa2
-    version: 2.0.0-beta.203
+    version: 2.0.0-beta.199
     engines: {node: ^14.18.0 || >=16.0.0, npm: '>=8', pnpm: '>=7'}
     peerDependencies:
-      sass-loader: ^13.2.2
+      '@vuepress/client': 2.0.0-beta.61
+      sass-loader: ^13.2.0
       vuepress: 2.0.0-beta.61
       vuepress-vite: 2.0.0-beta.61
       vuepress-webpack: 2.0.0-beta.61
     peerDependenciesMeta:
+      '@vuepress/client':
+        optional: true
       sass-loader:
         optional: true
       vuepress:
+        optional: true
+      vuepress-plugin-sass-palette:
+        optional: true
+      vuepress-shared:
         optional: true
       vuepress-vite:
         optional: true
@@ -7037,8 +7017,8 @@ packages:
       vue: registry.npmmirror.com/vue/3.2.47
       vue-router: registry.npmmirror.com/vue-router/4.1.6_vue@3.2.47
       vuepress: registry.npmmirror.com/vuepress/2.0.0-beta.61_zcwlgd45apez724duilctoxt4u
-      vuepress-plugin-sass-palette: registry.npmmirror.com/vuepress-plugin-sass-palette/2.0.0-beta.203_vuepress@2.0.0-beta.61
-      vuepress-shared: registry.npmmirror.com/vuepress-shared/2.0.0-beta.203_vuepress@2.0.0-beta.61
+      vuepress-plugin-sass-palette: registry.npmmirror.com/vuepress-plugin-sass-palette/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe
+      vuepress-shared: registry.npmmirror.com/vuepress-shared/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe
       workbox-build: registry.npmmirror.com/workbox-build/6.5.4
     transitivePeerDependencies:
       - '@types/babel__core'
@@ -7046,11 +7026,11 @@ packages:
       - supports-color
     dev: true
 
-  registry.npmmirror.com/vuepress-plugin-reading-time2/2.0.0-beta.203_vuepress@2.0.0-beta.61:
-    resolution: {integrity: sha512-FZ3KGkAJg/ZxovxhZC43rjNZtxmHpar2uVn3yea7bOiN9FAHs2NQ5rnMMFSBgxsAGLhaUWT2YW+uCXV18Vw4OQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vuepress-plugin-reading-time2/-/vuepress-plugin-reading-time2-2.0.0-beta.203.tgz}
-    id: registry.npmmirror.com/vuepress-plugin-reading-time2/2.0.0-beta.203
+  registry.npmmirror.com/vuepress-plugin-reading-time2/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe:
+    resolution: {integrity: sha512-ldaEnYS0dh284ZImZ+GyGUin2bS498cnOQrSdomXUAA2lUa1z1AVnK4B9mCCLhzFUI5jcMd3khwwO5zIrNwsvg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vuepress-plugin-reading-time2/-/vuepress-plugin-reading-time2-2.0.0-beta.199.tgz}
+    id: registry.npmmirror.com/vuepress-plugin-reading-time2/2.0.0-beta.199
     name: vuepress-plugin-reading-time2
-    version: 2.0.0-beta.203
+    version: 2.0.0-beta.199
     engines: {node: ^14.18.0 || >=16.0.0, npm: '>=8', pnpm: '>=7'}
     peerDependencies:
       vuepress: 2.0.0-beta.61
@@ -7059,23 +7039,26 @@ packages:
     peerDependenciesMeta:
       vuepress:
         optional: true
+      vuepress-shared:
+        optional: true
       vuepress-vite:
         optional: true
       vuepress-webpack:
         optional: true
     dependencies:
       vuepress: registry.npmmirror.com/vuepress/2.0.0-beta.61_zcwlgd45apez724duilctoxt4u
-      vuepress-shared: registry.npmmirror.com/vuepress-shared/2.0.0-beta.203_vuepress@2.0.0-beta.61
+      vuepress-shared: registry.npmmirror.com/vuepress-shared/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe
     transitivePeerDependencies:
       - '@vue/composition-api'
+      - '@vuepress/client'
       - supports-color
     dev: true
 
-  registry.npmmirror.com/vuepress-plugin-rtl/2.0.0-beta.203_vuepress@2.0.0-beta.61:
-    resolution: {integrity: sha512-eZYz2mv5ud3U9wf9d3d3F4Ry3cZIJaVdciJLF519WK0NJSukOU87j8340S0YqYflPyvelCnNnwj/xwWKfO69+g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vuepress-plugin-rtl/-/vuepress-plugin-rtl-2.0.0-beta.203.tgz}
-    id: registry.npmmirror.com/vuepress-plugin-rtl/2.0.0-beta.203
+  registry.npmmirror.com/vuepress-plugin-rtl/2.0.0-beta.199_vuepress@2.0.0-beta.61:
+    resolution: {integrity: sha512-HLqIuryS+KTk1ikBUNR+5i/DhnD7L8AZ5oGOxld0krlsRjue9H36mpVNTNyUI9swIxpALZ0hZcs0yf+jud7vvQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vuepress-plugin-rtl/-/vuepress-plugin-rtl-2.0.0-beta.199.tgz}
+    id: registry.npmmirror.com/vuepress-plugin-rtl/2.0.0-beta.199
     name: vuepress-plugin-rtl
-    version: 2.0.0-beta.203
+    version: 2.0.0-beta.199
     engines: {node: ^14.18.0 || >=16.0.0, npm: '>=8', pnpm: '>=7'}
     peerDependencies:
       vuepress: 2.0.0-beta.61
@@ -7094,9 +7077,44 @@ packages:
       '@vuepress/utils': registry.npmmirror.com/@vuepress/utils/2.0.0-beta.61
       vue: registry.npmmirror.com/vue/3.2.47
       vuepress: registry.npmmirror.com/vuepress/2.0.0-beta.61_zcwlgd45apez724duilctoxt4u
-      vuepress-shared: registry.npmmirror.com/vuepress-shared/2.0.0-beta.203_vuepress@2.0.0-beta.61
+      vuepress-shared: registry.npmmirror.com/vuepress-shared/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe
     transitivePeerDependencies:
       - '@vue/composition-api'
+      - supports-color
+    dev: true
+
+  registry.npmmirror.com/vuepress-plugin-sass-palette/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe:
+    resolution: {integrity: sha512-q8jAUvm5yvyUvqHzDI1BuuR6RxKfQ6I2pRtEtnwXupQ3MmVae/92MOs/olSymV3Jm9DCk7b0y7I7kGVF91Ubvw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vuepress-plugin-sass-palette/-/vuepress-plugin-sass-palette-2.0.0-beta.199.tgz}
+    id: registry.npmmirror.com/vuepress-plugin-sass-palette/2.0.0-beta.199
+    name: vuepress-plugin-sass-palette
+    version: 2.0.0-beta.199
+    engines: {node: ^14.18.0 || >=16.0.0, npm: '>=8', pnpm: '>=7'}
+    peerDependencies:
+      sass-loader: ^13.2.0
+      vuepress: 2.0.0-beta.61
+      vuepress-vite: 2.0.0-beta.61
+      vuepress-webpack: 2.0.0-beta.61
+    peerDependenciesMeta:
+      sass-loader:
+        optional: true
+      vuepress:
+        optional: true
+      vuepress-shared:
+        optional: true
+      vuepress-vite:
+        optional: true
+      vuepress-webpack:
+        optional: true
+    dependencies:
+      '@vuepress/shared': registry.npmmirror.com/@vuepress/shared/2.0.0-beta.61
+      '@vuepress/utils': registry.npmmirror.com/@vuepress/utils/2.0.0-beta.61
+      chokidar: registry.npmmirror.com/chokidar/3.5.3
+      sass: registry.npmmirror.com/sass/1.62.0
+      vuepress: registry.npmmirror.com/vuepress/2.0.0-beta.61_zcwlgd45apez724duilctoxt4u
+      vuepress-shared: registry.npmmirror.com/vuepress-shared/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - '@vuepress/client'
       - supports-color
     dev: true
 
@@ -7132,11 +7150,48 @@ packages:
       - supports-color
     dev: true
 
-  registry.npmmirror.com/vuepress-plugin-seo2/2.0.0-beta.203_vuepress@2.0.0-beta.61:
-    resolution: {integrity: sha512-2QHCZzdTFkeZM1BgMyktGcCPQZk7C9QeTyw0awcAZs/91LPa/Gl++pZAEayqH2CQVInCsaFE8r/z6DDtoxD1rw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vuepress-plugin-seo2/-/vuepress-plugin-seo2-2.0.0-beta.203.tgz}
-    id: registry.npmmirror.com/vuepress-plugin-seo2/2.0.0-beta.203
-    name: vuepress-plugin-seo2
+  registry.npmmirror.com/vuepress-plugin-search-pro/2.0.0-beta.203_vuepress@2.0.0-beta.61:
+    resolution: {integrity: sha512-sz+1pnt0WsOWNDvwnVSv/Tfl1X6wS3TNaFNp9u3KiNNbWFo4mE4Nm1NfyGP/lUH/krkBlhRK+VjxloiQwUFPMA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vuepress-plugin-search-pro/-/vuepress-plugin-search-pro-2.0.0-beta.203.tgz}
+    id: registry.npmmirror.com/vuepress-plugin-search-pro/2.0.0-beta.203
+    name: vuepress-plugin-search-pro
     version: 2.0.0-beta.203
+    engines: {node: ^14.18.0 || >=16.0.0, npm: '>=8', pnpm: '>=7'}
+    peerDependencies:
+      sass-loader: ^13.2.2
+      vuepress: 2.0.0-beta.61
+      vuepress-vite: 2.0.0-beta.61
+      vuepress-webpack: 2.0.0-beta.61
+    peerDependenciesMeta:
+      sass-loader:
+        optional: true
+      vuepress:
+        optional: true
+      vuepress-vite:
+        optional: true
+      vuepress-webpack:
+        optional: true
+    dependencies:
+      '@vuepress/client': registry.npmmirror.com/@vuepress/client/2.0.0-beta.61
+      '@vuepress/shared': registry.npmmirror.com/@vuepress/shared/2.0.0-beta.61
+      '@vuepress/utils': registry.npmmirror.com/@vuepress/utils/2.0.0-beta.61
+      '@vueuse/core': registry.npmmirror.com/@vueuse/core/9.13.0_vue@3.2.47
+      cheerio: registry.npmmirror.com/cheerio/1.0.0-rc.12
+      chokidar: registry.npmmirror.com/chokidar/3.5.3
+      vue: registry.npmmirror.com/vue/3.2.47
+      vue-router: registry.npmmirror.com/vue-router/4.1.6_vue@3.2.47
+      vuepress: registry.npmmirror.com/vuepress/2.0.0-beta.61_zcwlgd45apez724duilctoxt4u
+      vuepress-plugin-sass-palette: registry.npmmirror.com/vuepress-plugin-sass-palette/2.0.0-beta.203_vuepress@2.0.0-beta.61
+      vuepress-shared: registry.npmmirror.com/vuepress-shared/2.0.0-beta.203_vuepress@2.0.0-beta.61
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - supports-color
+    dev: true
+
+  registry.npmmirror.com/vuepress-plugin-seo2/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe:
+    resolution: {integrity: sha512-VCD7Ww7LS0wycyyzXN6lOLXSMEIR3wtBCiD9dZEtsFaG5OgIs8hRE3+KXLuHLZpkusqruBBcoeRj1tnNHJkkdA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vuepress-plugin-seo2/-/vuepress-plugin-seo2-2.0.0-beta.199.tgz}
+    id: registry.npmmirror.com/vuepress-plugin-seo2/2.0.0-beta.199
+    name: vuepress-plugin-seo2
+    version: 2.0.0-beta.199
     engines: {node: ^14.18.0 || >=16.0.0, npm: '>=8', pnpm: '>=7'}
     peerDependencies:
       vuepress: 2.0.0-beta.61
@@ -7153,17 +7208,18 @@ packages:
       '@vuepress/shared': registry.npmmirror.com/@vuepress/shared/2.0.0-beta.61
       '@vuepress/utils': registry.npmmirror.com/@vuepress/utils/2.0.0-beta.61
       vuepress: registry.npmmirror.com/vuepress/2.0.0-beta.61_zcwlgd45apez724duilctoxt4u
-      vuepress-shared: registry.npmmirror.com/vuepress-shared/2.0.0-beta.203_vuepress@2.0.0-beta.61
+      vuepress-shared: registry.npmmirror.com/vuepress-shared/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe
     transitivePeerDependencies:
       - '@vue/composition-api'
+      - '@vuepress/client'
       - supports-color
     dev: true
 
-  registry.npmmirror.com/vuepress-plugin-sitemap2/2.0.0-beta.203_vuepress@2.0.0-beta.61:
-    resolution: {integrity: sha512-EkaGX8ohZr9eX/He6H/6Lj+mGMisF2Ro40uAcKuIqBiWG3HW9W629uQHhXDOa9tMmia5B05qG6puUTc3tq856w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vuepress-plugin-sitemap2/-/vuepress-plugin-sitemap2-2.0.0-beta.203.tgz}
-    id: registry.npmmirror.com/vuepress-plugin-sitemap2/2.0.0-beta.203
+  registry.npmmirror.com/vuepress-plugin-sitemap2/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe:
+    resolution: {integrity: sha512-TElxZsu+WcyyHIBFrdhqpdSDdfZYXNZirwGUY7mrpyWYuOLwwRyV6vMGLc7WGLu10DNhXmKjecayAfEi2nnoww==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vuepress-plugin-sitemap2/-/vuepress-plugin-sitemap2-2.0.0-beta.199.tgz}
+    id: registry.npmmirror.com/vuepress-plugin-sitemap2/2.0.0-beta.199
     name: vuepress-plugin-sitemap2
-    version: 2.0.0-beta.203
+    version: 2.0.0-beta.199
     engines: {node: ^14.18.0 || >=16.0.0, npm: '>=8', pnpm: '>=7'}
     peerDependencies:
       vuepress: 2.0.0-beta.61
@@ -7171,6 +7227,8 @@ packages:
       vuepress-webpack: 2.0.0-beta.61
     peerDependenciesMeta:
       vuepress:
+        optional: true
+      vuepress-shared:
         optional: true
       vuepress-vite:
         optional: true
@@ -7181,7 +7239,48 @@ packages:
       '@vuepress/utils': registry.npmmirror.com/@vuepress/utils/2.0.0-beta.61
       sitemap: registry.npmmirror.com/sitemap/7.1.1
       vuepress: registry.npmmirror.com/vuepress/2.0.0-beta.61_zcwlgd45apez724duilctoxt4u
-      vuepress-shared: registry.npmmirror.com/vuepress-shared/2.0.0-beta.203_vuepress@2.0.0-beta.61
+      vuepress-shared: registry.npmmirror.com/vuepress-shared/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - '@vuepress/client'
+      - supports-color
+    dev: true
+
+  registry.npmmirror.com/vuepress-shared/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe:
+    resolution: {integrity: sha512-hmdpARmQOObqmjVirelNpuLpW+Cgzlu0iocQsYxCFAXRgoqloxD9LoEDveHXxSpP65Gux81WB2d/QqyzQOXnrA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vuepress-shared/-/vuepress-shared-2.0.0-beta.199.tgz}
+    id: registry.npmmirror.com/vuepress-shared/2.0.0-beta.199
+    name: vuepress-shared
+    version: 2.0.0-beta.199
+    engines: {node: ^14.18.0 || >=16.0.0, npm: '>=8', pnpm: '>=7'}
+    peerDependencies:
+      '@vuepress/client': 2.0.0-beta.61
+      vuepress: 2.0.0-beta.61
+      vuepress-vite: 2.0.0-beta.61
+      vuepress-webpack: 2.0.0-beta.61
+    peerDependenciesMeta:
+      '@vuepress/client':
+        optional: true
+      vuepress:
+        optional: true
+      vuepress-vite:
+        optional: true
+      vuepress-webpack:
+        optional: true
+    dependencies:
+      '@vuepress/client': registry.npmmirror.com/@vuepress/client/2.0.0-beta.61
+      '@vuepress/shared': registry.npmmirror.com/@vuepress/shared/2.0.0-beta.61
+      '@vuepress/utils': registry.npmmirror.com/@vuepress/utils/2.0.0-beta.61
+      '@vueuse/core': registry.npmmirror.com/@vueuse/core/9.13.0_vue@3.2.47
+      cheerio: registry.npmmirror.com/cheerio/1.0.0-rc.12
+      dayjs: registry.npmmirror.com/dayjs/1.11.7
+      execa: registry.npmmirror.com/execa/7.1.1
+      fflate: registry.npmmirror.com/fflate/0.7.4
+      gray-matter: registry.npmmirror.com/gray-matter/4.0.3
+      semver: registry.npmmirror.com/semver/7.4.0
+      striptags: registry.npmmirror.com/striptags/3.2.0
+      vue: registry.npmmirror.com/vue/3.2.47
+      vue-router: registry.npmmirror.com/vue-router/4.1.6_vue@3.2.47
+      vuepress: registry.npmmirror.com/vuepress/2.0.0-beta.61_zcwlgd45apez724duilctoxt4u
     transitivePeerDependencies:
       - '@vue/composition-api'
       - supports-color
@@ -7224,21 +7323,73 @@ packages:
       - supports-color
     dev: true
 
-  registry.npmmirror.com/vuepress-theme-hope/2.0.0-beta.203_vuepress@2.0.0-beta.61:
-    resolution: {integrity: sha512-AOSkerj7XTK158Dj4kSBDPLqOAqKvSV2AH64pul8ZY0KKFeAJ5wmVXubnoFP6pFSx2xbef+78tlTg1jU/oHMiQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vuepress-theme-hope/-/vuepress-theme-hope-2.0.0-beta.203.tgz}
-    id: registry.npmmirror.com/vuepress-theme-hope/2.0.0-beta.203
+  registry.npmmirror.com/vuepress-theme-hope/2.0.0-beta.199_vp7giep77rdltzfdyo4q5gatfa:
+    resolution: {integrity: sha512-NHPR7TbuawObuFO7QTDI9N9BvIDg7m5UVRmpFa6S73l7/Os3MZYGpFZXCCTzF/+ch0H7RWHGTWOnD5B4Z0/izg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vuepress-theme-hope/-/vuepress-theme-hope-2.0.0-beta.199.tgz}
+    id: registry.npmmirror.com/vuepress-theme-hope/2.0.0-beta.199
     name: vuepress-theme-hope
-    version: 2.0.0-beta.203
+    version: 2.0.0-beta.199
     engines: {node: ^14.18.0 || >=16.0.0, npm: '>=8', pnpm: '>=7'}
     peerDependencies:
-      sass-loader: ^13.2.2
+      '@vuepress/client': 2.0.0-beta.61
+      sass-loader: ^13.2.0
       vuepress: 2.0.0-beta.61
+      vuepress-plugin-comment2: 2.0.0-beta.199
       vuepress-vite: 2.0.0-beta.61
       vuepress-webpack: 2.0.0-beta.61
     peerDependenciesMeta:
+      '@vuepress/client':
+        optional: true
+      '@vuepress/plugin-active-header-links':
+        optional: true
+      '@vuepress/plugin-container':
+        optional: true
+      '@vuepress/plugin-external-link-icon':
+        optional: true
+      '@vuepress/plugin-git':
+        optional: true
+      '@vuepress/plugin-nprogress':
+        optional: true
+      '@vuepress/plugin-palette':
+        optional: true
+      '@vuepress/plugin-prismjs':
+        optional: true
+      '@vuepress/plugin-theme-data':
+        optional: true
       sass-loader:
         optional: true
       vuepress:
+        optional: true
+      vuepress-plugin-auto-catalog:
+        optional: true
+      vuepress-plugin-blog2:
+        optional: true
+      vuepress-plugin-comment2:
+        optional: true
+      vuepress-plugin-components:
+        optional: true
+      vuepress-plugin-copy-code2:
+        optional: true
+      vuepress-plugin-copyright2:
+        optional: true
+      vuepress-plugin-feed2:
+        optional: true
+      vuepress-plugin-md-enhance:
+        optional: true
+      vuepress-plugin-photo-swipe:
+        optional: true
+      vuepress-plugin-pwa2:
+        optional: true
+      vuepress-plugin-reading-time2:
+        optional: true
+      vuepress-plugin-rtl:
+        optional: true
+      vuepress-plugin-sass-palette:
+        optional: true
+      vuepress-plugin-seo2:
+        optional: true
+      vuepress-plugin-sitemap2:
+        optional: true
+      vuepress-shared:
         optional: true
       vuepress-vite:
         optional: true
@@ -7267,27 +7418,25 @@ packages:
       vue: registry.npmmirror.com/vue/3.2.47
       vue-router: registry.npmmirror.com/vue-router/4.1.6_vue@3.2.47
       vuepress: registry.npmmirror.com/vuepress/2.0.0-beta.61_zcwlgd45apez724duilctoxt4u
-      vuepress-plugin-auto-catalog: registry.npmmirror.com/vuepress-plugin-auto-catalog/2.0.0-beta.203_vuepress@2.0.0-beta.61
-      vuepress-plugin-blog2: registry.npmmirror.com/vuepress-plugin-blog2/2.0.0-beta.203_vuepress@2.0.0-beta.61
-      vuepress-plugin-comment2: registry.npmmirror.com/vuepress-plugin-comment2/2.0.0-beta.203_vuepress@2.0.0-beta.61
-      vuepress-plugin-components: registry.npmmirror.com/vuepress-plugin-components/2.0.0-beta.203_vuepress@2.0.0-beta.61
-      vuepress-plugin-copy-code2: registry.npmmirror.com/vuepress-plugin-copy-code2/2.0.0-beta.203_vuepress@2.0.0-beta.61
-      vuepress-plugin-copyright2: registry.npmmirror.com/vuepress-plugin-copyright2/2.0.0-beta.203_vuepress@2.0.0-beta.61
-      vuepress-plugin-feed2: registry.npmmirror.com/vuepress-plugin-feed2/2.0.0-beta.203_vuepress@2.0.0-beta.61
-      vuepress-plugin-md-enhance: registry.npmmirror.com/vuepress-plugin-md-enhance/2.0.0-beta.203_vuepress@2.0.0-beta.61
-      vuepress-plugin-photo-swipe: registry.npmmirror.com/vuepress-plugin-photo-swipe/2.0.0-beta.203_vuepress@2.0.0-beta.61
-      vuepress-plugin-pwa2: registry.npmmirror.com/vuepress-plugin-pwa2/2.0.0-beta.203_vuepress@2.0.0-beta.61
-      vuepress-plugin-reading-time2: registry.npmmirror.com/vuepress-plugin-reading-time2/2.0.0-beta.203_vuepress@2.0.0-beta.61
-      vuepress-plugin-rtl: registry.npmmirror.com/vuepress-plugin-rtl/2.0.0-beta.203_vuepress@2.0.0-beta.61
-      vuepress-plugin-sass-palette: registry.npmmirror.com/vuepress-plugin-sass-palette/2.0.0-beta.203_vuepress@2.0.0-beta.61
-      vuepress-plugin-seo2: registry.npmmirror.com/vuepress-plugin-seo2/2.0.0-beta.203_vuepress@2.0.0-beta.61
-      vuepress-plugin-sitemap2: registry.npmmirror.com/vuepress-plugin-sitemap2/2.0.0-beta.203_vuepress@2.0.0-beta.61
-      vuepress-shared: registry.npmmirror.com/vuepress-shared/2.0.0-beta.203_vuepress@2.0.0-beta.61
+      vuepress-plugin-auto-catalog: registry.npmmirror.com/vuepress-plugin-auto-catalog/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe
+      vuepress-plugin-blog2: registry.npmmirror.com/vuepress-plugin-blog2/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe
+      vuepress-plugin-comment2: registry.npmmirror.com/vuepress-plugin-comment2/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe
+      vuepress-plugin-components: registry.npmmirror.com/vuepress-plugin-components/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe
+      vuepress-plugin-copy-code2: registry.npmmirror.com/vuepress-plugin-copy-code2/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe
+      vuepress-plugin-copyright2: registry.npmmirror.com/vuepress-plugin-copyright2/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe
+      vuepress-plugin-feed2: registry.npmmirror.com/vuepress-plugin-feed2/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe
+      vuepress-plugin-md-enhance: registry.npmmirror.com/vuepress-plugin-md-enhance/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe
+      vuepress-plugin-photo-swipe: registry.npmmirror.com/vuepress-plugin-photo-swipe/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe
+      vuepress-plugin-pwa2: registry.npmmirror.com/vuepress-plugin-pwa2/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe
+      vuepress-plugin-reading-time2: registry.npmmirror.com/vuepress-plugin-reading-time2/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe
+      vuepress-plugin-rtl: registry.npmmirror.com/vuepress-plugin-rtl/2.0.0-beta.199_vuepress@2.0.0-beta.61
+      vuepress-plugin-sass-palette: registry.npmmirror.com/vuepress-plugin-sass-palette/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe
+      vuepress-plugin-seo2: registry.npmmirror.com/vuepress-plugin-seo2/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe
+      vuepress-plugin-sitemap2: registry.npmmirror.com/vuepress-plugin-sitemap2/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe
+      vuepress-shared: registry.npmmirror.com/vuepress-shared/2.0.0-beta.199_44bug2q4gvgfsg4b36ccgweufe
     transitivePeerDependencies:
       - '@types/babel__core'
       - '@vue/composition-api'
-      - react
-      - react-dom
       - supports-color
     dev: true
 
