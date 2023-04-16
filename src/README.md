@@ -7,6 +7,7 @@ heroImage: /logo.svg
 heroText: JAVA学习笔记
 heroFullScreen: true
 tagline: 坚持来源于Adoration
+bgImage: hero.jpg
 projects:
 - icon: Project
   name: 项目名称

@@ -20,9 +20,10 @@ export default hopeTheme({
 
     logo: "/logo.svg", // 右边logo
 
-    repo: "vuepress-theme-hope/vuepress-theme-hope",
+    // github信息
+    repo: "bendangmi/dosc",
 
-    docsDir: "docs",
+    docsDir: "src",
 
 
 
